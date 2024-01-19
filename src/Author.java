@@ -1,7 +1,7 @@
 public class Author {
-    private String mName;
+    private final String mName;
     private String mEmail;
-    private char mGender;
+    private final char mGender;
     public Author(String name, String email, char gender) {
         mName = name;
         mEmail = email;

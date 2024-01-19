@@ -1,6 +1,6 @@
 public class Book {
-    private String mName;
-    private Author mAuthor;
+    private final String mName;
+    private final Author mAuthor;
     private int mPrice;
     private int mQuantity;
     public Book(String name, Author author, int price, int quantity) {
@@ -29,6 +29,6 @@ public class Book {
     }
     @Override
     public String toString() {
-        return ("\'" + mName + "\' by " + getAuthor());
+        return ("'" + mName + "' by " + getAuthor());
     }
 }
